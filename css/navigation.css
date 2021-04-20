@@ -253,7 +253,7 @@ table, td, th {
   
   }
   
-table {
+.table1 table {
   
   border-collapse: collapse;
   
@@ -355,3 +355,46 @@ caption {
   background-color: skyblue;
   
 }
+
+.scroll-bar {
+  overflow-x: auto;
+}
+
+.many-columns table{
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.many-columns th, .many-columns td{
+  box-shadow: 1px 1px 5px black;
+  border-width: 2px;
+  padding: 10px;
+  border-width: 2px;
+}
+
+.table-image {
+  margin: auto;
+  width: 100%;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+border-collapse: separate;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 10px;
+}
+
+table.GeneratedTable thead {
+  background-color: #8a8a8a;
+}
+
